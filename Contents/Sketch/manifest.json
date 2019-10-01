@@ -1,0 +1,18 @@
+{
+  "compatibleVersion": 3,
+  "bundleVersion": 1,
+  "identifier": "com.sketch.plugins.document-change-example",
+  "commands": [
+    {
+      "script": "command.js",
+      "handlers": {
+        "onDocumentChanged": "onDocumentChanged"
+      }
+    }
+  ],
+  "version": "1.0.0",
+  "name": "Document Change",
+  "description": "Sample plugin showcasing how to handle document changes such as object addition, deletions and modifications.",
+  "author": "Sketch",
+  "disableCocoaScriptPreprocessor": true
+}
